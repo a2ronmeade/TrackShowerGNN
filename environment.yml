@@ -1,0 +1,28 @@
+name: duneGPU
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy
+  - scikit-learn=1.7.2
+  - matplotlib=3.10.9
+  - seaborn=0.13.2
+  - ipykernel
+  - ipython=8.37.0
+  - tqdm
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch==2.12.1+cu126
+      - torchvision==0.27.1+cu126
+      - torchaudio==2.11.0+cu126
+      - torch-geometric==2.8.0
+      - --extra-index-url https://data.pyg.org/whl/torch-2.12.1+cu126.html
+      - pyg-lib==0.7.0+pt212cu126
+      - torch-scatter==2.1.2+pt212cu126
+      - torch-sparse==0.6.18+pt212cu126
+      - uproot==5.7.4
+      - awkward==2.9.1
+      - optuna==4.9.0
