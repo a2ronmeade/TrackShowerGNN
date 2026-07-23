@@ -1,5 +1,5 @@
 # TrackShowerGNN
-GNN classification of track/shower clusters for DUNE LArTPC detectors, created as part of REU project for Aaron Meade, @ The University of Kansas, Summer 2026 w/ Dr. Maria Brigida Brunetti  
+GNN classification of track/shower clusters for DUNE LArTPC detectors, developed by Aaron Meade as an Summer 2026 REU project at The University of Kansas, advised by Dr. Maria Brigida Brunetti  
 
 **SEE THE WIKI FOR MORE DETAILED INFORMATION**
 
